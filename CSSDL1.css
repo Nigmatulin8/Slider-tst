@@ -1,0 +1,106 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/* First slider. Begin */
+.galeryOne
+{
+	width: 560px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+	.galeryOne .photosOne
+	{
+		position: relative;
+		height: 370px;
+	}
+
+		.galeryOne .photosOne img
+		{
+			width: 100%;
+			position: absolute;
+			right: 0px;
+			opacity: 0;
+		}
+
+			.galeryOne .photosOne img.showed { opacity: 1; }
+.sliderBtn { margin-top: 55px; }
+/* First slider. End */
+
+/* Second slider. Begin */
+.galeryOne1
+{
+	width: 560px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+	.galeryOne1 .photosOne1
+	{
+		position: relative;
+		height: 370px;
+	}
+
+		.galeryOne1 .photosOne1 img
+		{
+			width: 100%;
+			position: absolute;
+			right: 0px;
+			opacity: 0;
+		}
+
+			.galeryOne1 .photosOne1 img.showed { opacity: 1; }
+.sliderBtn1 { margin-top: 55px; }
+/* Second slider. End */
+
+/* Third slider. Begin */
+.galeryOne2
+{
+	width: 560px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+	.galeryOne2 .photosOne2
+	{
+		position: relative;
+		height: 370px;
+	}
+
+		.galeryOne2 .photosOne2 img
+		{
+			width: 100%;
+			position: absolute;
+			right: 0px;
+			opacity: 0;
+		}
+
+			.galeryOne2 .photosOne2 img.showed { opacity: 1; }
+
+.sliderBtn2 { margin-top: 55px; }
+/* Third slider. End */
+
+/* Up btn. Begin */
+#toUpId 
+{ 
+	width: 80px; 
+	position: fixed;
+	z-index: 1;
+	left: 91%;
+	cursor: pointer;
+	display: none;
+}
+
+.toUp
+{
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	bottom: 50px;
+}
+/* Up btn. End */
